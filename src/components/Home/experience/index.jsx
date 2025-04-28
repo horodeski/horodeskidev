@@ -13,21 +13,21 @@ export default function Experience() {
 			</div>
 			<div className={styles["cards"]}>
 				<Card
-					imageSrc="../../../../public/soft.png"
+					imageSrc="/images/soft.png"
 					title="Software Engineer"
 					time="2023 - Present"
 					subtitle="SoftExpert - Software for Excellence"
 					description="I actively contributed to the creation of new products, working on both frontend and backend development. I helped design and build scalable, user-focused solutions using React, Java, PHP, and PostgreSQL, ensuring high performance and maintainability across the systems."
 				/>
 				<Card
-					imageSrc="../../../../public/c3.png"
+					imageSrc="../../../../public/images/c3.png"
 					title="Front-End Developer"
 					time="2024 - Present"
 					subtitle="C3Labs"
 					description="I worked as a Frontend Developer, specializing in Vue.js, with a strong focus on enhancing user experience. My role involved creating intuitive, responsive, and accessible interfaces that aligned with product goals and improved overall usability."
 					/>
 				<Card
-					imageSrc="../../../../public/c3.png"
+					imageSrc="/public/images/c3.png"
 					title="Product and Brand Designer"
 					time="2023 - Present"
 					subtitle="C3Labs"
