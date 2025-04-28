@@ -1,0 +1,27 @@
+.button {
+	gap: 5px;
+	font-size: 14px;
+	line-height: 1em;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	place-items: center;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0em;
+	padding: 10px 30px;
+	color: rgb(191, 191, 191);
+	background-color: rgb(31, 31, 31);
+	border-radius: 8px;
+	user-select: none;
+	white-space: nowrap;
+	cursor: pointer;
+	will-change: transform;
+	transform: none;
+}
+
+
+.primary {
+	background-color: #5F65F3
+}
