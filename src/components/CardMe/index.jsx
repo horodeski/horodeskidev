@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 export default function CardMe() {
 	return (
 		<div className={styles["card"]}>
-			<img src="../../../public/eu.jpg" alt="" />
+			<img src="/images/eu.jpg" alt="" />
 			<h3>Geovana Sophia Horodeski</h3>
 			<div className={styles["redes"]}>
 				<div className={styles["btn"]}>
