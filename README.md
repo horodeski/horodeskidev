@@ -37,4 +37,4 @@ A navegação foi projetada para ser intuitiva e acessível. Utilizando **React 
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seu-username/portfolio.git
+   git clone https://github.com/horodeski/horodeskidev.git
