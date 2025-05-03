@@ -2,6 +2,7 @@ import React from "react";
 
 import CardMe from "../../components/CardMe";
 import Experience from "../../components/Home/experience";
+import Projects from "../../components/Home/projects";
 
 import styles from "./styles.module.css";
 
@@ -20,6 +21,7 @@ export default function Home() {
 						</p>
 					</div>
 					<Experience />
+					<Projects />
 				</div>
 			</div>
 		</div>

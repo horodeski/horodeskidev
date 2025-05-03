@@ -1,0 +1,62 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+	width: 100%;
+}
+
+.header .buttons {
+	background-color: rgb(16, 16, 16);
+  color: white;
+  display: flex;
+}
+
+.buttons button {
+  gap: 5px;
+	font-size: 14px;
+	line-height: 1em;
+	font-weight: 500;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	place-items: center;
+	text-decoration: none;
+	font-style: normal;
+	letter-spacing: 0em;
+	padding: 10px 30px;
+	color: rgb(191, 191, 191);
+	background-color: rgb(31, 31, 31);
+	border-radius: 8px;
+	user-select: none;
+	white-space: nowrap;
+	cursor: pointer;
+	will-change: transform;
+	transform: none;
+}
+
+.header .buttons span {
+  color: white;
+}
+
+.title {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.title i {
+  font-size: 32px;
+}
+
+.card {
+  display: flex;
+	flex-direction: column;
+	gap: 12px;
+	background-color: rgb(16, 16, 16);
+	border-radius: 12px;
+	padding: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+  width: 100%;
+}
+
