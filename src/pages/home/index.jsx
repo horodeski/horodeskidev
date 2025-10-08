@@ -10,14 +10,27 @@ export default function Home() {
 	return (
 		<div>
 			<div className={styles["container"]}>
-				<CardMe />
+				<div className={styles["aside"]}>
+					<CardMe />
+					<div className={styles["stacks-container"]}>
+						<h4>Stacks</h4>
+						<div className={styles["stacks"]}>
+							#java #javascript #react
+							#vue #typescript #html
+							#node #sass #css
+							#python #django #scss
+							#php #postgres #ux
+							#figma #ui
+						</div>
+					</div>
+				</div>
 				<div className={styles["about"]}>
 					<div className={styles["description"]}>
-						<h1>Building digital experiences through code and design.</h1>
+						<h1>Construindo experiências digitais por meio de código e design.</h1>
 						<p>
-							I specialize in blending software engineering and design to create clean, user-friendly digital experiences. With a strong
-							background in both development and visual design, I focus on building solutions that are not only functional and efficient
-							but also visually engaging — turning ideas into seamless, intuitive experiences.
+							Sou especialista em integrar engenharia de software e design para criar experiências digitais intuitivas e elegantes. Com
+							sólida experiência em desenvolvimento e design visual, foco na construção de soluções que sejam não apenas funcionais e
+							eficientes, mas também visualmente atraentes — transformando ideias em experiências perfeitas e envolventes
 						</p>
 					</div>
 					<Experience />

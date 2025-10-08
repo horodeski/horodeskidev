@@ -12,7 +12,7 @@ export default function Projects() {
 			<div className={styles["header"]}>
 				<div className={styles["title"]}>
 					<i class="ph ph-rocket-launch"></i>
-					<h3>Projects</h3>
+					<h3>Formação & Reconhecimentos</h3>
 				</div>
 				<ButtonGroup options={["code", "figma"]} selected={selected} onChange={setSelected} />
 			</div>
