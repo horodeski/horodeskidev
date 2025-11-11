@@ -21,6 +21,10 @@ export default function CardMe() {
 			<div className={styles["stacks"]}>
 				#java #javascript #react #reactnative #vue #typescript #html #node #sass #css #python #django #scss #php #postgres #ux #figma #ui
 			</div>
+			<div className={styles["actions"]}>
+				<Button text="Baixar currículo" type="primary" />
+				<Button text="Entrar em contato" />
+			</div>
 		</div>
 	);
 }

@@ -6,12 +6,12 @@
 	width: 100%;
 	height: 100%;
 	display: flex;
-	place-items: center;
+	align-items: center;
 	text-decoration: none;
 	font-style: normal;
 	letter-spacing: 0em;
 	padding: 10px 30px;
-	color: rgb(191, 191, 191);
+	color: rgb(255, 255, 255);
 	background-color: rgb(31, 31, 31);
 	border-radius: 8px;
 	user-select: none;
@@ -19,9 +19,10 @@
 	cursor: pointer;
 	will-change: transform;
 	transform: none;
+	justify-content: center;
 }
 
-
 .primary {
-	background-color: #363EF9
+	background-color: #FF07A0;
+	text-align: center;
 }

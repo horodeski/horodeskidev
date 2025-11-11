@@ -5,6 +5,7 @@ import Experience from "../../components/Home/experience";
 import Projects from "../../components/Home/projects";
 
 import styles from "./styles.module.css";
+import Academic from "../../components/Academic";
 
 export default function Home() {
 	return (
@@ -13,7 +14,7 @@ export default function Home() {
 				<CardMe />
 				<div className={styles["about"]}>
 					<div className={styles["description"]}>
-						<h1>Construindo experiências digitais por meio de código e design.</h1>
+						<h1>Construindo experiências digitais por meio de código e design<span>.</span></h1>
 						<p>
 							Apaixonada por transformar ideias em produtos, sou desenvolvedora full stack com foco em unir tecnologia e experiência do
 							usuário. Gosto de aprender, explorar novas soluções e enfrentar desafios que me tirem da zona de conforto. Acredito que
@@ -26,6 +27,7 @@ export default function Home() {
 						</p>
 					</div>
 					<Experience />
+					<Academic />
 					<Projects />
 				</div>
 			</div>

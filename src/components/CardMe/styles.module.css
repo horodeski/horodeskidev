@@ -16,19 +16,7 @@
 	border-radius: 24px;
 	width: 240px;
 }
-
-.redes,
-.buttons {
+.actions {
 	display: flex;
 	gap: 10px;
-}
-
-.redes i {
-	font-size: 23px;
-}
-
-.redes .btn {
-	padding: 10px;
-	border-radius: 10px;
-	border: 1px solid rgba(255, 255, 255, 0.1);
 }
