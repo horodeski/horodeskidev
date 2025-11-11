@@ -10,27 +10,19 @@ export default function Home() {
 	return (
 		<div>
 			<div className={styles["container"]}>
-				<div className={styles["aside"]}>
-					<CardMe />
-					<div className={styles["stacks-container"]}>
-						<h4>Stacks</h4>
-						<div className={styles["stacks"]}>
-							#java #javascript #react
-							#vue #typescript #html
-							#node #sass #css
-							#python #django #scss
-							#php #postgres #ux
-							#figma #ui
-						</div>
-					</div>
-				</div>
+				<CardMe />
 				<div className={styles["about"]}>
 					<div className={styles["description"]}>
 						<h1>Construindo experiências digitais por meio de código e design.</h1>
 						<p>
-							Sou especialista em integrar engenharia de software e design para criar experiências digitais intuitivas e elegantes. Com
-							sólida experiência em desenvolvimento e design visual, foco na construção de soluções que sejam não apenas funcionais e
-							eficientes, mas também visualmente atraentes — transformando ideias em experiências perfeitas e envolventes
+							Apaixonada por transformar ideias em produtos, sou desenvolvedora full stack com foco em unir tecnologia e experiência do
+							usuário. Gosto de aprender, explorar novas soluções e enfrentar desafios que me tirem da zona de conforto. Acredito que
+							cada linha de código pode impactar positivamente a vida das pessoas.
+						</p>
+						<p>
+							Minha experiência passa por diferentes etapas do desenvolvimento, da ideia ao produto final, sempre com o propósito de
+							criar soluções que facilitem o dia a dia das pessoas. Encaro cada projeto como uma oportunidade de aprender algo novo,
+							colaborar com outras mentes criativas e deixar um impacto positivo através da tecnologia.
 						</p>
 					</div>
 					<Experience />

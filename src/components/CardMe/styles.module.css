@@ -2,23 +2,19 @@
 	display: flex;
 	flex-direction: column;
 	gap: 19px;
-	align-items: center;
-	background-color: rgb(16, 16, 16);
 	border-radius: 30px;
 	padding: 20px;
 	width: 340px;
 	height: min-content;
-	border: 1px solid rgba(255, 255, 255, 0.1);
+	position: fixed;
+	top: 60px;
+	width: 21vw;
 }
 
 .card img {
 	border: 1px solid rgba(255, 255, 255, 0.1);
 	border-radius: 24px;
-	width: 100%;
-}
-
-.card h3 {
-	text-align: center;
+	width: 240px;
 }
 
 .redes,

@@ -16,9 +16,10 @@ export default function CardMe() {
 					<i class="ph ph-github-logo"></i>
 				</div>
 			</div> */}
-			<div className={styles["buttons"]}>
-				<Button text="Baixar CV" />
-				<Button text="Falar comigo" type="primary" />
+			<h4>Stacks</h4>
+
+			<div className={styles["stacks"]}>
+				#java #javascript #react #reactnative #vue #typescript #html #node #sass #css #python #django #scss #php #postgres #ux #figma #ui
 			</div>
 		</div>
 	);
